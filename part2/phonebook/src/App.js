@@ -10,7 +10,7 @@ const PersonForm = (props) => {
   return (
     <form onSubmit={props.onSubmit}>
         <div>
-          HahaName: <input value={props.nameValue} onChange={props.nameChange}/>
+          Name: <input value={props.nameValue} onChange={props.nameChange}/>
         </div>
         <div>
           Number: <input value={props.numValue} onChange={props.numChange}/>
